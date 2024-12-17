@@ -22,4 +22,6 @@ jobs:
               with:
                 node-version: '22'
                 cache: 'yarn'
-                
+            
+            - name: Install dependencies
+              run: yarn
